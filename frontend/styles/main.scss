@@ -1,9 +1,16 @@
+:root {
+    --primaryColor: #071C4D;
+    --button: #FF9E53;
+    --btnHover: #FF811F;
+}
+
 body {
     background-color: #E4E6EB;
     font-family: 'Assistant', sans-serif;
-    color: #071C4D;
+    color: var(--primaryColor);
 }
 
+// Navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -13,11 +20,11 @@ body {
 .navbar-light {
     .navbar-nav {
         .nav-link {
-            color: #071C4D;
+            color: var(--primaryColor);
 
             &.active {
                 font-weight: 600;
-                color: #071C4D !important;
+                color: var(--primaryColor) !important;
             }
         }
     }
@@ -33,11 +40,45 @@ body {
 }
 
 .btn-login {
-    background-color: #071C4D;
+    background-color: var(--primaryColor);
     color: #fff;
 
     &:hover {
         background-color: rgb(12, 43, 116);
         color: #fff;
+    }
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    background-size: cover;
+    background-image: url('../images/banner.png');
+    margin-top: -70px;
+
+    h1,
+    p {
+        color: #fff;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: var(--button);
+        color: #fff;
+
+        &:hover {
+            background-color: var(--btnHover);
+            color: #fff;
+        }
     }
 }

@@ -1,7 +1,13 @@
+:root {
+  --primaryColor: #071C4D;
+  --button: #FF9E53;
+  --btnHover: #FF811F;
+}
+
 body {
   background-color: #E4E6EB;
   font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  color: var(--primaryColor);
 }
 
 .navbar-brand img {
@@ -9,12 +15,12 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071C4D;
+  color: var(--primaryColor);
 }
 
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 600;
-  color: #071C4D !important;
+  color: var(--primaryColor) !important;
 }
 
 .btn-navbar-right {
@@ -26,12 +32,45 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: var(--primaryColor);
   color: #fff;
 }
 
 .btn-login:hover {
   background-color: #0c2b74;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  background-size: cover;
+  background-image: url("../images/banner.png");
+  margin-top: -70px;
+}
+
+header h1,
+header p {
+  color: #fff;
+  font-weight: 300;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: var(--button);
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: var(--btnHover);
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
