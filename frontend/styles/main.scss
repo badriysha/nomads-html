@@ -265,3 +265,15 @@ header {
         }
     }
 }
+
+.section-footer {
+    h5 {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    a {
+        color: var(--primaryColor);
+        font-size: 18px;
+    }
+}
