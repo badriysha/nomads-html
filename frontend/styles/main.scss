@@ -277,3 +277,98 @@ header {
         font-size: 18px;
     }
 }
+
+// -------- DETAILS ---------
+.section-header-details {
+    min-height: 310px;
+    background-color: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        margin-bottom: 30px;
+        padding: 0;
+
+        li {
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        .breadcrumb-item {
+            &.active {
+                color: var(--primaryColor);
+                font-weight: 400;
+            }
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #B1B1B1;
+            font-weight: lighter;
+        }
+
+        .features {
+            margin-top: 25px;
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 0;
+                font-weight: 300;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+        }
+
+        .description {
+            float: left;
+            margin-left: 10px;
+            overflow: hidden;
+
+        }
+
+        .features-img {
+            float: left;
+            width: 45px;
+            height: 45px;
+        }
+
+        .gallery {
+            .xzoom-container {
+                display: block;
+
+                .xzoom {
+                    width: 100%;
+                    box-shadow: none;
+                    margin-bottom: 10px;
+
+                }
+
+                .xactive {
+                    border: 4px solid #1ABC9C;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
