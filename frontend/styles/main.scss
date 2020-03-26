@@ -288,6 +288,7 @@ header {
 .section-details-content {
     margin-top: -210px;
     min-height: 100vh;
+    padding-bottom: 50px;
 
     .breadcrumb {
         background-color: transparent;
@@ -358,10 +359,9 @@ header {
                 display: block;
 
                 .xzoom {
-                    width: 100%;
+                    max-width: 100%;
                     box-shadow: none;
                     margin-bottom: 10px;
-
                 }
 
                 .xactive {
@@ -371,4 +371,46 @@ header {
             }
         }
     }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+
+    .members {
+        .member-img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .trip-information {
+
+        th,
+        td {
+            font-weight: lighter;
+        }
+
+        td {
+            color: #B1B1B1;
+        }
+    }
+
+    .join-now {
+        margin-top: -16px;
+
+        .btn-join-now {
+            background-color: var(--button);
+            color: #fff;
+            border-radius: 0;
+
+            &:hover {
+                background-color: var(--btnHover);
+                color: #fff;
+            }
+        }
+    }
+
+
 }
