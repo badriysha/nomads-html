@@ -320,6 +320,11 @@ header {
             font-size: 20px;
         }
 
+        h3 {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
         p {
             font-size: 18px;
             color: #B1B1B1;
@@ -370,6 +375,101 @@ header {
                 }
             }
         }
+
+        .trip-information {
+
+            th,
+            td {
+                font-weight: lighter;
+            }
+
+            td {
+                color: #B1B1B1;
+            }
+
+            .text-blue {
+                color: var(--primaryColor);
+                font-weight: bold;
+            }
+
+            .text-orange {
+                color: var(--button);
+                font-weight: bold;
+            }
+        }
+
+        .payment-instructions {
+            font-size: 14px;
+            font-weight: lighter;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    color: var(--primaryColor);
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    color: var(--primaryColor);
+                    margin-bottom: 0;
+                    font-size: 16px;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+                }
+            }
+
+            .bank-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+        }
+
+        .attendee {
+            .table {
+                thead {
+                    font-weight: lighter;
+                }
+
+                td {
+                    border-top: none;
+                }
+            }
+        }
+
+        .disclaimer {
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+        }
+
+        .input-group-append {
+            .btn {
+                padding-right: 30px;
+            }
+        }
+
+        .btn-add-now {
+            background-color: var(--primaryColor);
+            color: #fff;
+
+            &:hover {
+                background-color: #1B346E;
+                color: #fff;
+            }
+        }
     }
 
     .card-right {
@@ -378,22 +478,15 @@ header {
         border-bottom: 0;
     }
 
+    .btn-cancel {
+        color: #BFBFBF;
+        font-weight: lighter;
+    }
+
     .members {
         .member-img {
             width: 40px;
             height: 40px;
-        }
-    }
-
-    .trip-information {
-
-        th,
-        td {
-            font-weight: lighter;
-        }
-
-        td {
-            color: #B1B1B1;
         }
     }
 

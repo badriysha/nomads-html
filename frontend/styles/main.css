@@ -297,6 +297,11 @@ header .btn-get-started:hover {
   font-size: 20px;
 }
 
+.section-details-content .card-details h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .section-details-content .card-details p {
   font-size: 18px;
   color: #B1B1B1;
@@ -347,24 +352,100 @@ header .btn-get-started:hover {
           box-shadow: none;
 }
 
+.section-details-content .card-details .trip-information th,
+.section-details-content .card-details .trip-information td {
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .trip-information td {
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .trip-information .text-blue {
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information .text-orange {
+  color: var(--button);
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  color: var(--primaryColor);
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  color: var(--primaryColor);
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .attendee .table thead {
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .attendee .table td {
+  border-top: none;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1B346E;
+  color: #fff;
+}
+
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 0;
 }
 
-.section-details-content .members .member-img {
-  width: 40px;
-  height: 40px;
-}
-
-.section-details-content .trip-information th,
-.section-details-content .trip-information td {
+.section-details-content .btn-cancel {
+  color: #BFBFBF;
   font-weight: lighter;
 }
 
-.section-details-content .trip-information td {
-  color: #B1B1B1;
+.section-details-content .members .member-img {
+  width: 40px;
+  height: 40px;
 }
 
 .section-details-content .join-now {
