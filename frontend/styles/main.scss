@@ -504,6 +504,29 @@ header {
             }
         }
     }
+}
 
+.section-success {
+    height: 90vh;
 
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    p {
+        font-weight: 300;
+        color: #b1b1b1;
+        font-size: 18px;
+    }
+
+    .btn-home-page {
+        background-color: var(--primaryColor);
+        color: #fff;
+
+        &:hover {
+            background-color: #1B346E;
+            color: #fff;
+        }
+    }
 }

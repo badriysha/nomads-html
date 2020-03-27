@@ -462,4 +462,29 @@ header .btn-get-started:hover {
   background-color: var(--btnHover);
   color: #fff;
 }
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.section-success p {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 18px;
+}
+
+.section-success .btn-home-page {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #1B346E;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
